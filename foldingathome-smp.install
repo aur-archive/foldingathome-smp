@@ -1,0 +1,9 @@
+post_install() {
+  cat << 'EOM'
+  --> Please cd to /opt/fah-smp/ and execute ./fah6 -configonly 
+  --> to configure your settings before starting the daemon.
+  --> If you would like to join the Arch Linux team, use team number 45032. 
+  --> To check current progress, point your browser to file://opt/fah-smp/MyFolding.html
+EOM
+}
+
